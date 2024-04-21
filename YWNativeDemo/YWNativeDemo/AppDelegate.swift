@@ -9,30 +9,38 @@ import UIKit
 import Flutter
 import FlutterPluginRegistrant
 
+///< MARK: print
+func YWLog<T>(_ message: T, file: String = #file, function: String = #function, lineNumber: Int = #line) {
+    #if DEBUG
+    let fileName = (file as NSString).lastPathComponent
+    print("[\(fileName):funciton:\(function):line:\(lineNumber)]- \(message)")
+    #endif
+}
+
+let YWWAppDelegate = UIApplication.shared.delegate as? YWAppDelegate
+
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class YWAppDelegate: UIResponder, UIApplicationDelegate {
 
+    lazy var flutterEngine = FlutterEngine(name: "flutter engine")
 
+    var window: UIWindow?
+    var tab: YWTabBarCtrl?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.backgroundColor = UIColor.white
+        initRootViewController()
         return true
     }
 
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+    
+    func initRootViewController() {
+        
+        self.tab = YWTabBarCtrl()        
+        self.window?.rootViewController = self.tab!
+        self.window?.makeKeyAndVisible()
     }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
-
 }
 

@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		62A18A8F2BD0011F00C3E17F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A18A8E2BD0011F00C3E17F /* AppDelegate.swift */; };
-		62A18A912BD0011F00C3E17F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A18A902BD0011F00C3E17F /* SceneDelegate.swift */; };
 		62A18A932BD0011F00C3E17F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A18A922BD0011F00C3E17F /* ViewController.swift */; };
 		62A18A962BD0011F00C3E17F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A18A942BD0011F00C3E17F /* Main.storyboard */; };
 		62A18A982BD0012300C3E17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A18A972BD0012300C3E17F /* Assets.xcassets */; };
 		62A18A9B2BD0012300C3E17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A18A992BD0012300C3E17F /* LaunchScreen.storyboard */; };
 		62C69BB82BD39CEC00A377D9 /* fffeee.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C69BB72BD39CEC00A377D9 /* fffeee.m */; };
+		62C69BBB2BD4FF6300A377D9 /* YWBaseCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C69BBA2BD4FF6300A377D9 /* YWBaseCtrl.swift */; };
+		62C69BBD2BD4FF8100A377D9 /* YWTabBarCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C69BBC2BD4FF8100A377D9 /* YWTabBarCtrl.swift */; };
+		62C69BBF2BD4FF9800A377D9 /* YWNavigationCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C69BBE2BD4FF9800A377D9 /* YWNavigationCtrl.swift */; };
+		62C69BC62BD5015900A377D9 /* YWHomeCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C69BC52BD5015900A377D9 /* YWHomeCtrl.swift */; };
+		62C69BC92BD5017200A377D9 /* YWAccountCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C69BC82BD5017200A377D9 /* YWAccountCtrl.swift */; };
+		62C69BCD2BD5033300A377D9 /* YWCategoryCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C69BCC2BD5033300A377D9 /* YWCategoryCtrl.swift */; };
+		62C69BD12BD5037500A377D9 /* YWNewsCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C69BD02BD5037500A377D9 /* YWNewsCtrl.swift */; };
 		B9A7BDD0D44FB4EC63C0D7A7 /* Pods_YWNativeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32474B898E7BC3A5CE264114 /* Pods_YWNativeDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +27,6 @@
 		32474B898E7BC3A5CE264114 /* Pods_YWNativeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWNativeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A18A8B2BD0011F00C3E17F /* YWNativeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWNativeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A18A8E2BD0011F00C3E17F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62A18A902BD0011F00C3E17F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		62A18A922BD0011F00C3E17F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		62A18A952BD0011F00C3E17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62A18A972BD0012300C3E17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,6 +35,13 @@
 		62C69BB52BD39CEC00A377D9 /* YWNativeDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YWNativeDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		62C69BB62BD39CEC00A377D9 /* fffeee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fffeee.h; sourceTree = "<group>"; };
 		62C69BB72BD39CEC00A377D9 /* fffeee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fffeee.m; sourceTree = "<group>"; };
+		62C69BBA2BD4FF6300A377D9 /* YWBaseCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWBaseCtrl.swift; sourceTree = "<group>"; };
+		62C69BBC2BD4FF8100A377D9 /* YWTabBarCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWTabBarCtrl.swift; sourceTree = "<group>"; };
+		62C69BBE2BD4FF9800A377D9 /* YWNavigationCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWNavigationCtrl.swift; sourceTree = "<group>"; };
+		62C69BC52BD5015900A377D9 /* YWHomeCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWHomeCtrl.swift; sourceTree = "<group>"; };
+		62C69BC82BD5017200A377D9 /* YWAccountCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWAccountCtrl.swift; sourceTree = "<group>"; };
+		62C69BCC2BD5033300A377D9 /* YWCategoryCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWCategoryCtrl.swift; sourceTree = "<group>"; };
+		62C69BD02BD5037500A377D9 /* YWNewsCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWNewsCtrl.swift; sourceTree = "<group>"; };
 		CEBBC123596AC068FBDACFDB /* Pods-YWNativeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWNativeDemo.debug.xcconfig"; path = "Target Support Files/Pods-YWNativeDemo/Pods-YWNativeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FCB3306C1E0556CCE75D231B /* Pods-YWNativeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWNativeDemo.release.xcconfig"; path = "Target Support Files/Pods-YWNativeDemo/Pods-YWNativeDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,8 +79,9 @@
 		62A18A8D2BD0011F00C3E17F /* YWNativeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				62C69BC02BD5001200A377D9 /* Main */,
+				62C69BB92BD4FF2C00A377D9 /* Root */,
 				62A18A8E2BD0011F00C3E17F /* AppDelegate.swift */,
-				62A18A902BD0011F00C3E17F /* SceneDelegate.swift */,
 				62A18A922BD0011F00C3E17F /* ViewController.swift */,
 				62A18A942BD0011F00C3E17F /* Main.storyboard */,
 				62A18A972BD0012300C3E17F /* Assets.xcassets */,
@@ -79,6 +92,99 @@
 				62C69BB52BD39CEC00A377D9 /* YWNativeDemo-Bridging-Header.h */,
 			);
 			path = YWNativeDemo;
+			sourceTree = "<group>";
+		};
+		62C69BB92BD4FF2C00A377D9 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				62C69BBA2BD4FF6300A377D9 /* YWBaseCtrl.swift */,
+				62C69BBC2BD4FF8100A377D9 /* YWTabBarCtrl.swift */,
+				62C69BBE2BD4FF9800A377D9 /* YWNavigationCtrl.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		62C69BC02BD5001200A377D9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				62C69BCE2BD5033A00A377D9 /* News */,
+				62C69BCA2BD5030800A377D9 /* Category */,
+				62C69BC32BD5006400A377D9 /* Common */,
+				62C69BC22BD5002400A377D9 /* Account */,
+				62C69BC12BD5001B00A377D9 /* Home */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		62C69BC12BD5001B00A377D9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				62C69BC42BD5013300A377D9 /* Ctrl */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		62C69BC22BD5002400A377D9 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				62C69BC72BD5015D00A377D9 /* Ctrl */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		62C69BC32BD5006400A377D9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		62C69BC42BD5013300A377D9 /* Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				62C69BC52BD5015900A377D9 /* YWHomeCtrl.swift */,
+			);
+			path = Ctrl;
+			sourceTree = "<group>";
+		};
+		62C69BC72BD5015D00A377D9 /* Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				62C69BC82BD5017200A377D9 /* YWAccountCtrl.swift */,
+			);
+			path = Ctrl;
+			sourceTree = "<group>";
+		};
+		62C69BCA2BD5030800A377D9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				62C69BCB2BD5031300A377D9 /* Ctrl */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		62C69BCB2BD5031300A377D9 /* Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				62C69BCC2BD5033300A377D9 /* YWCategoryCtrl.swift */,
+			);
+			path = Ctrl;
+			sourceTree = "<group>";
+		};
+		62C69BCE2BD5033A00A377D9 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				62C69BCF2BD5034E00A377D9 /* Ctrl */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		62C69BCF2BD5034E00A377D9 /* Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				62C69BD02BD5037500A377D9 /* YWNewsCtrl.swift */,
+			);
+			path = Ctrl;
 			sourceTree = "<group>";
 		};
 		7C92354B2D5FEF84D27D6458 /* Pods */ = {
@@ -237,9 +343,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				62C69BB82BD39CEC00A377D9 /* fffeee.m in Sources */,
+				62C69BC62BD5015900A377D9 /* YWHomeCtrl.swift in Sources */,
+				62C69BCD2BD5033300A377D9 /* YWCategoryCtrl.swift in Sources */,
+				62C69BBB2BD4FF6300A377D9 /* YWBaseCtrl.swift in Sources */,
+				62C69BD12BD5037500A377D9 /* YWNewsCtrl.swift in Sources */,
+				62C69BBD2BD4FF8100A377D9 /* YWTabBarCtrl.swift in Sources */,
+				62C69BC92BD5017200A377D9 /* YWAccountCtrl.swift in Sources */,
+				62C69BBF2BD4FF9800A377D9 /* YWNavigationCtrl.swift in Sources */,
 				62A18A932BD0011F00C3E17F /* ViewController.swift in Sources */,
 				62A18A8F2BD0011F00C3E17F /* AppDelegate.swift in Sources */,
-				62A18A912BD0011F00C3E17F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +514,6 @@
 				INFOPLIST_FILE = YWNativeDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -434,7 +545,6 @@
 				INFOPLIST_FILE = YWNativeDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
