@@ -59,3 +59,12 @@ end
 
 5、如引用import Flutter 提示找不到，可以尝试
 >>>在项目的【builde Settings] -> 【Search Paths】-> 【Framework Search Paths】-> 添加："${PODS_CONFIGURATION_BUILD_DIR}/Flutter"
+
+
+
+
+相关：
+
+1-.ios 是隐藏目录，可以单独运行Flutter module，测试此模块的功能
+2-iOS代码添加到现有应用程序的项目或插件中，而不是添加到模块的.ios /目录中
+
